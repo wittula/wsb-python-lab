@@ -1,0 +1,15 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"zadanie5_Patryk_Wittbrodt.Car" [color="black", fontcolor="black", label="Car", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Driver" [color="black", fontcolor="black", label="Driver", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Human" [color="black", fontcolor="black", label="Human", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Motorcycle" [color="black", fontcolor="black", label="Motorcycle", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Pet" [color="black", fontcolor="black", label="Pet", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.PetOwner" [color="black", fontcolor="black", label="PetOwner", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Vehicle" [color="black", fontcolor="black", label="Vehicle", shape="record", style="solid"];
+"zadanie5_Patryk_Wittbrodt.Car" -> "zadanie5_Patryk_Wittbrodt.Vehicle" [arrowhead="empty", arrowtail="none"];
+"zadanie5_Patryk_Wittbrodt.Driver" -> "zadanie5_Patryk_Wittbrodt.Human" [arrowhead="empty", arrowtail="none"];
+"zadanie5_Patryk_Wittbrodt.Motorcycle" -> "zadanie5_Patryk_Wittbrodt.Vehicle" [arrowhead="empty", arrowtail="none"];
+"zadanie5_Patryk_Wittbrodt.PetOwner" -> "zadanie5_Patryk_Wittbrodt.Human" [arrowhead="empty", arrowtail="none"];
+}
